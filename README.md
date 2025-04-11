@@ -21,11 +21,11 @@
 - Машинное обучение и анализ данных
 
 ## 📞 Контакты
-Контакт: Информация 
-Телефон: +7 (989) 805 95 24 
-Email: egoren1kov@mail.ru 
-Telegram: [@s1asha3](https://t.me/s1asha3) 
-GitHub: [github.com/egorenkov](https://github.com/egorenkov) 
+- Контакт: Информация 
+- Телефон: +7 (989) 805 95 24 
+- Email: egoren1kov@mail.ru 
+- Telegram: [@s1asha3](https://t.me/s1asha3) 
+- GitHub: [github.com/egorenkov](https://github.com/egorenkov) 
 
 
 ## 🔍 Дополнительная информация
