@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой профиль</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .profile-card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+        .education {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+        }
+        .section {
+            margin: 25px 0;
+            text-align: left;
+        }
+        .section-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .qrcode {
+            width: 150px;
+            height: 150px;
+            margin: 20px auto;
+            background-color: #eee;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .direction {
+            background-color: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 15px;
+        }
+        .contact-item {
+            width: 48%;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .contact-icon {
+            margin-right: 10px;
+            color: #3498db;
+        }
+        .additional-info {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+        .two-columns {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .column {
+            width: 48%;
+        }
+        .qr {
+            max-width: 180px;
+            max-height: 180px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="name">Егоренков Александр Дмитриевич</div>
+        <div class="education"> Санкт-Петербургский государственный университет, факультет прикладной математики — процессов управления</div>
+        
+        <div class="qrcode">
+            <!-- Здесь будет QR-код -->
+            <img class = 'qr' src="photo_5458860101747207984_y.jpg" alt="QR-code на телеграмм">
+        </div>
+        
+        <div class="two-columns">
+            <div class="column">
+                <div class="section">
+                    <div class="section-title">Направление деятельности</div>
+                    <div class="direction">Подготовка к ЕГЭ по информатике в качестве репетитора</div>
+                </div>
+                
+                <div class="section">
+                    <div class="section-title">Достижения</div>
+                    <ul>
+                        <li>Баллы за Единый Государственный Экзамен: 96 - профильная математика, 93 - информатика.</li>
+                        <li>High Quality Awards 15% на «Cup Moscow 2024». </li>
+                        <li>Полуфиналист конкурса «Большая перемена». </li>
+                        <!-- <li>Призер хакатона "Цифровой прорыв"</li> -->
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="column">
+                <div class="section">
+                    <div class="section-title">Контактная информация</div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>+7 (989) 805 95 24
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i> egoren1kov@mail.ru
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-telegram contact-icon"></i> https://t.me/s1asha3
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github contact-icon"></i> github.com/egorenkov
+                        </div>
+                        <!-- <div class="contact-item">
+                            <i class="fab fa-linkedin contact-icon"></i> linkedin.com/in/username
+                        </div> -->
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i> Санкт-Петербург, Россия
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-title">Дополнительная информация</div>
+            <div class="additional-info">
+                <p>Специализация: программирование, машинное обучение и анализ данных.</p>
+                <!-- <p>Подготовка к экзамену проходит в онлайн форме. </p> -->
+                <p>Владею языками программирования: Python, C++. Имею навык работы с SQL.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
